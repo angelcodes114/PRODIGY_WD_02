@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do list maker</title>
+    <link rel="stylesheet" href="todostyle.css">
+</head>
+<body>
+    <div class="container">
+        <h1>To-do list maker <img src="icon.jpg"></h1>
+        <div class="row">
+        <input type="text" class="textbox" id="textbox" placeholder="Add your task here...">
+        <button class="add" onclick="addtask()">Add</button></div>
+        <div class="outline">
+        <ul class="listbox" id="listbox" style="padding-left: 20px;">
+            
+        </ul>
+    </div>
+    <br>
+    <div class="buttons">
+        <button class="add" id="save" onclick="savedata()">Save</button> <button class="add" id="delete" onclick="delete_all()">Delete all</button>
+    </div>
+    </div>
+    <script src="todoscript.js"></script>
+</body>
+</html>
